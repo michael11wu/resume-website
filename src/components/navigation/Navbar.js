@@ -1,6 +1,5 @@
 
 import React from "react";
-import icon from '../../images/navIcon.png';
 
 
 
