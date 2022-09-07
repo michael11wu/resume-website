@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 
 
@@ -13,17 +14,17 @@ const Navbar = () => {
   const MenuItems = [
     {
       title: 'Home',
-      url: '/',
+      url: '/resume-website',
       cName: 'nav-link active'
     },
     {
       title: 'Projects',
-      url: '/projects',
+      url: '/resume-website/projects',
       cName: 'nav-link'
     },
     {
       title: 'About Me',
-      url: '/about',
+      url: '/resume-website/about',
       cName: 'nav-link'
     },
   ]
@@ -35,7 +36,7 @@ const Navbar = () => {
         <ul className="nav nav-pills">
           {MenuItems.map((item,index) => {
             return (
-              <li key={index} className="nav-item"><a className={item.cName} href = {item.url}>{item.title}</a></li>
+              <li key={index} className="nav-item"><Link className={item.cName} to = {item.url}>{item.title}</Link></li>
             )
           })}
         </ul>
