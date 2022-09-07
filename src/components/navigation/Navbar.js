@@ -14,17 +14,17 @@ const Navbar = () => {
   const MenuItems = [
     {
       title: 'Home',
-      url: '/resume-website',
+      url: '/',
       cName: 'nav-link active'
     },
     {
       title: 'Projects',
-      url: '/resume-website/projects',
+      url: '/projects',
       cName: 'nav-link'
     },
     {
       title: 'About Me',
-      url: '/resume-website/about',
+      url: '/about',
       cName: 'nav-link'
     },
   ]
