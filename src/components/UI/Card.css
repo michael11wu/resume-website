@@ -1,0 +1,15 @@
+.card {
+  box-shadow: 0 1px 8px #000000;
+  margin: auto;
+  min-width: 300px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.background {
+  background: linear-gradient(90deg,#1d1d1d 60%,rgb(116, 116, 116));
+}
+
+.card-content {
+  color: wheat;
+}

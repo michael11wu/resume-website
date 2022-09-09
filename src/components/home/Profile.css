@@ -1,0 +1,20 @@
+img {
+  border-radius: 50%;
+}
+
+.info {
+  display: flex;
+  padding: 5px;
+}
+
+.education, .bio{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
+
+.education > p {
+  font-size: 12px;
+  margin: 1px;
+}
+

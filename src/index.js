@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
-import { HashRouter, BrowserRouter } from 'react-router-dom';
+import { HashRouter} from 'react-router-dom';
 //import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <HashRouter>
-      <App />
+      <App/>
     </HashRouter>
   </React.StrictMode>
 );
