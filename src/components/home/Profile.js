@@ -8,7 +8,7 @@ const Profile = () => {
     <div className='info'>
 
       <div className='bio'>
-        <img width={100} height={100} alt='profile picture' src = {require('../../images/profile.jfif')}></img>
+        <img className= 'icon' width={100} height={100} alt='profile picture' src = {require('../../images/profile.jfif')}></img>
         <h5>Michael Wu</h5>
         <hr></hr>
         <p>Computer Science</p>

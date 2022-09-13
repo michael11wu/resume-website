@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './HomePage.css';
 import '../components/UI/Card.css'
 
-const HomePage = () => {
+const HomePage = (props) => {
   return (
     <div>
       <div className='intro'>
@@ -16,12 +16,12 @@ const HomePage = () => {
       <br></br>
       <h5 className='header'>Education</h5>
       <div>
-        <Education/>
+        <Education education = {props.educationInfo}/>
       </div>
       <br></br>
       <h5 className='header'>Work Experience</h5>
       <div>
-        <Experience/>
+        <Experience experiences = {props.experienceInfo}/>
       </div>
       
     </div>

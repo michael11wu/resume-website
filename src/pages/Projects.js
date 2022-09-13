@@ -1,11 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import 'bootstrap/dist/css/bootstrap.css';
+import ProjectGlance from '../components/projects/ProjectGlance';
 
-const Projects = () => {
+const Projects = (props) => {
+
   return (
     <div>
-      <h1>Projects</h1>
+        <h1>Project Work!</h1>
+        <h6>Click on each individual card for more details</h6>
+        <ProjectGlance projectGlance = {props.projectGlanceInfo}/>
     </div>
   )
 }
