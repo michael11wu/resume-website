@@ -6,8 +6,9 @@ const Projects = (props) => {
 
   return (
     <div>
-        <h1>Project Work!</h1>
-        <h6>Click on each individual card for more details</h6>
+        <h1 style={{textAlign: 'center'}}>Project Work</h1>
+        <hr/>
+        <h6 style={{textAlign: 'center'}}>Click on each individual card for more details</h6>
         <ProjectGlance projectGlance = {props.projectGlanceInfo}/>
     </div>
   )
