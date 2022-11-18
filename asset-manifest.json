@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/resume-website/static/css/main.887035ee.css",
-    "main.js": "/resume-website/static/js/main.b153564f.js",
+    "main.css": "/resume-website/static/css/main.b26ee771.css",
+    "main.js": "/resume-website/static/js/main.8a1c28e1.js",
+    "static/media/transit.jpg": "/resume-website/static/media/transit.e9c85becc978addf4b55.jpg",
     "static/media/raytracer.jpg": "/resume-website/static/media/raytracer.97ea203cba2525759d35.jpg",
     "static/media/umn.png": "/resume-website/static/media/umn.f3bb4d598def165f89ea.png",
+    "static/media/trade.jpg": "/resume-website/static/media/trade.efccc6c995211a3c088a.jpg",
     "static/media/battleboats.jpg": "/resume-website/static/media/battleboats.1af5051c8ec807325208.jpg",
     "static/media/election.jpg": "/resume-website/static/media/election.d27604df631b681edf5f.jpg",
     "static/media/background.jpg": "/resume-website/static/media/background.ff802ca531e9bec4674d.jpg",
@@ -12,11 +14,11 @@
     "static/media/profile.jfif": "/resume-website/static/media/profile.22bb6fbdbd99390bb799.jfif",
     "static/media/depot.jfif": "/resume-website/static/media/depot.aa4b73d620929508a50c.jfif",
     "index.html": "/resume-website/index.html",
-    "main.887035ee.css.map": "/resume-website/static/css/main.887035ee.css.map",
-    "main.b153564f.js.map": "/resume-website/static/js/main.b153564f.js.map"
+    "main.b26ee771.css.map": "/resume-website/static/css/main.b26ee771.css.map",
+    "main.8a1c28e1.js.map": "/resume-website/static/js/main.8a1c28e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.887035ee.css",
-    "static/js/main.b153564f.js"
+    "static/css/main.b26ee771.css",
+    "static/js/main.8a1c28e1.js"
   ]
 }
