@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/resume-website/static/css/main.b26ee771.css",
-    "main.js": "/resume-website/static/js/main.0db13143.js",
+    "main.css": "/resume-website/static/css/main.e83d58d4.css",
+    "main.js": "/resume-website/static/js/main.58051c06.js",
     "static/media/transit.jpg": "/resume-website/static/media/transit.e9c85becc978addf4b55.jpg",
     "static/media/raytracer.jpg": "/resume-website/static/media/raytracer.97ea203cba2525759d35.jpg",
     "static/media/umn.png": "/resume-website/static/media/umn.f3bb4d598def165f89ea.png",
@@ -14,11 +14,11 @@
     "static/media/profile.jfif": "/resume-website/static/media/profile.22bb6fbdbd99390bb799.jfif",
     "static/media/depot.jfif": "/resume-website/static/media/depot.aa4b73d620929508a50c.jfif",
     "index.html": "/resume-website/index.html",
-    "main.b26ee771.css.map": "/resume-website/static/css/main.b26ee771.css.map",
-    "main.0db13143.js.map": "/resume-website/static/js/main.0db13143.js.map"
+    "main.e83d58d4.css.map": "/resume-website/static/css/main.e83d58d4.css.map",
+    "main.58051c06.js.map": "/resume-website/static/js/main.58051c06.js.map"
   },
   "entrypoints": [
-    "static/css/main.b26ee771.css",
-    "static/js/main.0db13143.js"
+    "static/css/main.e83d58d4.css",
+    "static/js/main.58051c06.js"
   ]
 }
