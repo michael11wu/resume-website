@@ -98,17 +98,18 @@ function App() {
       imgUrl: meditech,
       company: 'MEDITECH',
       time: 'Jan 2023 - Present',
-      description: ["Working in interoperability to ensure MEDITECH's EHR complies to HL7 standards when sending information to other vendors",
-      'Create tools and utilities for customers to assist them in the process of debugging problems on their software', 'Utilize scrum methodoligies to complete bugs/stories and use Atlassian Suite to document work']
+      description: ["Spearheaded the development of cutting-edge tools tailored for a large-scale software system, regulatory compliance efforts and enhancing on-site customer service turnaround times",
+      'Facilitated seamless integration of peer-reviewed software changes, actively engaging in discussions with team members to ensure adherence to quality standards, while providing invaluable assistance to QC staff in resolving testing challenges, guaranteeing the deployment of top-notch code at customer sites',
+       'Leveraged the Atlassian suite to meticulously document completed issues and craft informative articles, serving as a crucial resource for future developers and enhancing their comprehension of system changes and user workflows']
     },
     {
       jobtitle: 'Database Reports Intern',
       imgUrl: transform,
       company: 'Minnesota Transform',
       time: 'Jan 2022 - October 2022',
-      description: ["Responsible for utilizing SQL and Ruby to upgrade functionality to Ojibwe People’s Dictionary website that enhances user experience resulting in better tools for the user to find what they need",
-      "Documented and communicated my work and the steps needed for employees in the future to follow why and what I did in upgrading functionality",
-      "Ran SQL reports on large datasets to retrieve important information that allowed my manager to understand where and what information was stored in the backend",]
+      description: ["Innovated and implemented impactful quality of life enhancements to website functionality utilizing Ruby on Rails, optimizing backend administrative tasks and enhancing user experience",
+      "Conducted comprehensive SQL analysis on extensive datasets, extracting critical insights to empower managerial decision-making by illuminating backend data storage locations and information relevance",
+      "Authored comprehensive documentation for SQL reports and newly integrated functionalities, empowering team members with clear, accessible guidelines to comprehend processes and effortlessly replicate them for streamlined operations",]
     },
     {
       jobtitle: 'Student Manager',
