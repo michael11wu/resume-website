@@ -13,17 +13,17 @@ const HomePage = (props) => {
       <div className='intro'>
         <Profile/>
       </div>
+      <br/>
+      <h5 className='header'>Work Experience</h5>
+      <div>
+        <Experience experiences = {props.experienceInfo}/>
+      </div>
       <br></br>
       <h5 className='header'>Education</h5>
       <div>
         <Education education = {props.educationInfo}/>
       </div>
       <br></br>
-      <h5 className='header'>Work Experience</h5>
-      <div>
-        <Experience experiences = {props.experienceInfo}/>
-      </div>
-      
     </div>
   )
 }

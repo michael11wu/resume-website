@@ -18,6 +18,7 @@ import vote from './images/election.jpg';
 import textrain from './images/textrain.jpg';
 import trade from './images/trade.jpg';
 import transit from './images/transit.jpg';
+import meditech from './images/meditech.png';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       img: raytracer,
       area: 'C/C++',
       name: 'Ray Tracer',
-      details: 'The ray tracer was built to demonstrate my knowledge of computer graphics and the calculations necessary to produce a realistic image. It took in an input file which was parsed for details of all the objects in the scene. Rays were then shot out to the viewing window and check with intersection with objects. Phongs Illumination Model was used for calculating the RGB value of each object. Additional features included depth cueing and light attentation.'
+      details: 'The ray tracer was built to demonstrate my knowledge of computer graphics and the calculations necessary to produce a realistic image. It took in an input file which was parsed for details of all the objects in the scene. Rays were then shot out to the viewing window to calculate intersections with objects. Phongs Illumination Model was used for calculating the RGB value of each object. Additional features included depth cueing and light attenuation.'
     },
     {
       img: vote,
@@ -45,7 +46,7 @@ function App() {
       img: textrain,
       area: 'Java',
       name: 'Text Rain',
-      details: 'Text Rain was built on Processing, a software sketchbook. The program has a thershold for pixel values that will stop the text from falling and that threshold can be changed. The texts will not fall through pixels darker than the threshold and will act like they are sitting upon that object. Text collision is also active so as the letters are randomly falling, they will not overlap.'
+      details: 'Text Rain was built on Processing, a software sketchbook. The program has a threshold for pixel values that will stop the text from falling and that threshold can be changed. The texts will not fall through pixels darker than the threshold and will act like they are sitting upon that object. Text collision is also active so as the letters are randomly falling, they will not overlap.'
     },
     {
       img: trade,
@@ -93,10 +94,18 @@ function App() {
   //Experience info
   const experiences = [
     {
+      jobtitle: 'Software Developer',
+      imgUrl: meditech,
+      company: 'MEDITECH',
+      time: 'Jan 2023 - Present',
+      description: ["Working in interoperability to ensure MEDITECH's EHR complies to HL7 standards when sending information to other vendors",
+      'Create tools and utilities for customers to assist them in the process of debugging problems on their software', 'Utilize scrum methodoligies to complete bugs/stories and use Atlassian Suite to document work']
+    },
+    {
       jobtitle: 'Database Reports Intern',
       imgUrl: transform,
       company: 'Minnesota Transform',
-      time: 'Jan 2022 - Present',
+      time: 'Jan 2022 - October 2022',
       description: ["Responsible for utilizing SQL and Ruby to upgrade functionality to Ojibwe People’s Dictionary website that enhances user experience resulting in better tools for the user to find what they need",
       "Documented and communicated my work and the steps needed for employees in the future to follow why and what I did in upgrading functionality",
       "Ran SQL reports on large datasets to retrieve important information that allowed my manager to understand where and what information was stored in the backend",]
@@ -109,14 +118,15 @@ function App() {
       description: ['Recorded races and documented data for the coaches to better adjust the practices to fit the need of each student-athlete',
         'Built relationships with teammates and practiced team culture that resulted in a better work environment'
       ]
-    },
-    {
-      jobtitle: 'Freight/Receiving',
-      imgUrl: depot,
-      company: 'Home Depot',
-      time: 'Jun 2020 - Aug 2020',
-      description: ['Unloaded trucks then moved items to salesfloor.','Ensure the store is stocked and ready for business the next day.', 'Moved excess items to storage above items for later use.']
     }
+    // ,
+    // {
+    //   jobtitle: 'Freight/Receiving',
+    //   imgUrl: depot,
+    //   company: 'Home Depot',
+    //   time: 'Jun 2020 - Aug 2020',
+    //   description: ['Unloaded trucks then moved items to salesfloor.','Ensure the store is stocked and ready for business the next day.', 'Moved excess items to storage above items for later use.']
+    // }
   ];
 
   return (

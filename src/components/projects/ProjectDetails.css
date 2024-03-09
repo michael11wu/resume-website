@@ -26,5 +26,6 @@
 .backdrop-contents {
   height: auto;
   background: #ffffff;
-  padding: 5px;
+  padding: 10px;
+  margin: 10px;
 }
